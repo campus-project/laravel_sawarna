@@ -33,11 +33,11 @@
 
                     <nav class="fl_right font-xs text-uppercase" id="main-navbar">
                         <ul class="clear">
-                            <li class="active"><a href="/">Home</a></li>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#destinations">Popular Destination</a></li>
-                            <li><a href="#galery">Galery</a></li>
-                            <li><a href="#main-footer">Subscribe</a></li>
+                            <li class="active"><a href="/">Beranda</a></li>
+                            <li><a href="#about">Tentang</a></li>
+                            <li><a href="#destinations">Tujuan Terpopuler</a></li>
+                            <li><a href="#galery">Galeri</a></li>
+                            <li><a href="#main-footer">Langganan</a></li>
                         </ul>
                     </nav>
                 </header>
@@ -49,7 +49,7 @@
                             <span>“There is no place like the beach… where the land meets the sea and the sea meets the sky.” — Umair Siddiqui</span>
                         </p>
                         <footer>
-                            <button class="btn inverse" onClick="document.getElementById('about').scrollIntoView()">Click To Know More</button>
+                            <button class="btn inverse" onClick="document.getElementById('about').scrollIntoView()">Klik untuk mengetahui lebih lanjut</button>
                         </footer>
                     </article>
                 </div>
@@ -61,8 +61,8 @@
 
                 <div class="text-center">
                     <h6 class="heading text-uppercase my-1 font-x2">{{ config('app.name', 'Laravel') }}</h6>
-                    <p class="my-2">Lodging in Sawarna consists of villas, resorts, semi hotels, homestays that you can choose
-                        <br> according to the number of participants, desired facilities and budget.</p>
+                    <p class="my-2">Penginapan di Sawarna terdiri dari villa, resort, semi hotel, homestay yang bisa Anda pilih
+                        <br>sesuai dengan jumlah peserta, fasilitas dan anggaran yang diinginkan.</p>
                 </div>
 
                 <div>
@@ -99,8 +99,8 @@
             <article class="d-flex-c container text-center">
                 <div class="my-2">
                     <h6 class="heading font-x2">{{ config('app.name', 'Laravel') }}</h6>
-                    <p>Lodging in Sawarna consists of villas, resorts, semi hotels, homestays that you can choose
-                        <br> according to the number of participants, desired facilities and budget.</p>
+                    <p>Penginapan di Sawarna terdiri dari villa, resort, semi hotel, homestay yang bisa Anda pilih
+                        <br>sesuai dengan jumlah peserta, fasilitas dan anggaran yang diinginkan.</p>
                 </div>
             </article>
         </section>
@@ -108,7 +108,7 @@
         <section class="wrapper text-dark bg-grey" id="destinations">
             <div class="container d-flex-c">
                 <div class="text-center">
-                    <h6 class="heading my-3 font-x2">Popular Destinations</h6>
+                    <h6 class="heading my-3 font-x2">Tujuan Terpopuler</h6>
                 </div>
 
                 <ul class="d-flex-r nospace">
@@ -162,9 +162,9 @@
         <section class="wrapper text-dark" id="other-issues">
             <div class="d-flex-c container">
                 <div class="text-center my-2">
-                    <h6 class="heading font-x2">Hotels</h6>
-                    <p>Lodging in Sawarna consists of villas, resorts, semi hotels, homestays that you can choose
-                        <br>according to the number of participants, desired facilities and budget.</p>
+                    <h6 class="heading font-x2">Hotel</h6>
+                    <p>Penginapan di Sawarna terdiri dari villa, resort, semi hotel, homestay yang bisa Anda pilih
+                        <br>sesuai dengan jumlah peserta, fasilitas dan anggaran yang diinginkan.</p>
                     <div class="d-flex-r">
                         <article class="hover2 mx-2">
                             <a href="#">
@@ -206,7 +206,7 @@
             <div class="d-flex-r">
                 <div class="one_half text-dark text-right">
                     <div class="border-right m-2 p-2">
-                        <h6 class="font-x2 heading">Galery</h6>
+                        <h6 class="font-x2 heading">Galeri</h6>
                     </div>
                 </div>
 
@@ -218,7 +218,7 @@
         <div class="wrapper bg-green">
             <footer class="d-flex-r clear container text-white" id="main-footer">
                 <div class="mx-2">
-                    <h6 class="heading font-x1 my-1">Contact Us</h6>
+                    <h6 class="heading font-x1 my-1">Kontak</h6>
                     <ul class="nospace linkedlist contact">
                         <li><i class="fa fa-phone"></i> +6221 123-123-12</li>
                         <li><i class="fa fa-envelope-o"></i>{{ 'info@' . str_replace('http://', '', config('app.url', 'localhost')) }}</li>
@@ -226,12 +226,12 @@
                 </div>
 
                 <div class="mx-2" id="subscribe">
-                    <h6 class="heading my-1 font-x1">Subscribe</h6>
+                    <h6 class="heading my-1 font-x1">Langganan</h6>
                     <form action="" id="subscribe-form">
                         <fieldset>
-                            <input type="text" id="name" class="my-1" placeholder="Name" required>
+                            <input type="text" id="name" class="my-1" placeholder="Nama" required>
                             <input type="email" id="email" class="my-1" placeholder="Email" required>
-                            <button type="submit" class="btn">Subscribe</button>
+                            <button type="submit" class="btn">Langganan</button>
                         </fieldset>
                     </form>
                 </div>

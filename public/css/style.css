@@ -292,7 +292,8 @@ nav ul, nav ol {
 
 /*Parallax 2*/
 #parallax-2 {
-    background: url(../img/bg/static-bg-2.jpg) fixed no-repeat
+    background: url(../img/bg/static-bg-2.jpg) fixed no-repeat;
+    background-size:cover
 }
 
 #destinations ul li {

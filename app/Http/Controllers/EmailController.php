@@ -14,9 +14,9 @@ class EmailController extends Controller
                 'name' => $request->name,
                 'email' => $request->email
             ], function ($message) use ($request) {
-                $message->from('no-reply@' . str_replace('http://:', '', config('url', 'Laravel')));
+                $message->from('no-reply@' . str_replace('http://', '', config('app.url', 'Laravel')));
                 $message->subject('Subscription');
-                $message->to('y.hertanto17@gmail.com');
+                $message->to($request->email);
             });
 
             return Response::json([
